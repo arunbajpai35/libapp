@@ -21,7 +21,7 @@ git clone https://github.com/yourusername/yourrepository.git
 pip install -r requirements.txt
 ```
 
-Create the cofig.ini.
+Create the `cofig.ini`.
 ```
 [DATABASE]
 DB_USERNAME = DB_USERNAME1
