@@ -5,7 +5,7 @@ It sets up the FastAPI application and includes the router for the students API.
 """
 
 from fastapi import FastAPI
-from fastapi.middleware import CORSMiddleware
+from fastapi.middleware.cors import CORSMiddleware
 
 from api.v1.students import router as StudentRouter
 
